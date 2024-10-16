@@ -3,7 +3,11 @@ public class MinPQ <Key extends Comparable<Key>>
     private Key[] pq;
     private int n;
 
-
+ public MinPQ(int capacity)
+    {
+        pq = (Key[]) new Comparable[capacity+1];
+    }
+    
     public boolean isEmpty()
     {
         return n == 0;
