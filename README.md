@@ -25,7 +25,9 @@ To solve this problem, you will implement the scheduler using a priority queue (
 |     5    |         1         |
 
 **Output:**
+<br />
 Execution order: [5, 2, 1, 4, 3]
+<br />
 Average completion time: 9
  
 ### Task 2:
@@ -41,7 +43,9 @@ Modify the scheduler to handle priority classes, where each job has a priority l
 |     5    |         1         |         2        |
   
 **Output:**
+<br />
 Execution order: [1, 4, 5, 2, 3]
+<br />
 Average completion time: 11.8
  
  
@@ -73,5 +77,7 @@ Simulate an environment where jobs arrive dynamically (i.e., jobs arrive at diff
     - Job 4 finishes, and Job 3 starts (completion time = 21 seconds).
 
 **Output:**
+<br />
 Execution order: [1, 2, 5, 4, 3]
+<br />
 Average completion time: 10.2
