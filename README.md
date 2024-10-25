@@ -8,8 +8,7 @@
 The objective of this assignment is to understand and implement priority queues in a real-world scenario where tasks need to be scheduled and processed based on their processing time and priority. You will develop a system to manage and prioritize a large number of tasks efficiently using a priority queue.
 
 ### Task 1:
-You are given N jobs, where each job j requires tj seconds of processing time. You need to complete all of the jobs but want to maximize customer satisfaction by minimizing the average completion time of the jobs. Completion time of a job is defined as the total time elapsed from the start of the schedule until the job is completed. Using the Shortest Processing Time First (SPT) rule, you need to design a job scheduler 
-that: 
+You are given N jobs, where each job j requires tj seconds of processing time. You need to complete all of the jobs but want to maximize customer satisfaction by minimizing the average completion time of the jobs. Completion time of a job is defined as the total time elapsed from the start of the schedule until the job is completed. Using the Shortest Processing Time First (SPT) rule, you need to design a job scheduler that: 
 1. Schedules jobs in increasing order of processing time.
 2. Outputs the order in which the jobs should be executed.
 3. Calculates the average completion time of all jobs.
