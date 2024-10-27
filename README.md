@@ -25,10 +25,8 @@ To solve this problem, you will implement the scheduler using a priority queue (
 |     5    |         1         |
 
 **Output:**
-<br />
-Execution order: [5, 2, 1, 4, 3]
-<br />
-Average completion time: 9
+<img width="1440" alt="SC 2024-10-26 at 11 08 44 PM" src="https://github.com/user-attachments/assets/d8f8eb2c-0829-4c6f-b392-ac4c0eb2736e">
+
  
 ### Task 2:
 Modify the scheduler to handle priority classes, where each job has a priority level and jobs with higher priority (e.g., priority level 1 is higher than priority level 2) should be scheduled before jobs with lower priority. Jobs within the same priority class should still follow the SPT rule.
@@ -43,10 +41,8 @@ Modify the scheduler to handle priority classes, where each job has a priority l
 |     5    |         1         |         2        |
   
 **Output:**
-<br />
-Execution order: [1, 4, 5, 2, 3]
-<br />
-Average completion time: 11.8
+<img width="1440" alt="SC 2024-10-26 at 11 53 10 PM" src="https://github.com/user-attachments/assets/f58233a2-5978-44df-a231-ab720245281d">
+
  
  
 ### Task 3:
@@ -77,7 +73,4 @@ Simulate an environment where jobs arrive dynamically (i.e., jobs arrive at diff
     - Job 4 finishes, and Job 3 starts (completion time = 21 seconds).
 
 **Output:**
-<br />
-Execution order: [1, 2, 5, 4, 3]
-<br />
-Average completion time: 10.2
+<img width="1440" alt="SC 2024-10-26 at 11 53 30 PM" src="https://github.com/user-attachments/assets/341b17e1-7627-46a4-b849-b6eb222cdc49">
