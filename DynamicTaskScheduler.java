@@ -55,14 +55,14 @@ public class DynamicTaskScheduler {
                 DynamicJob job = jobQueue.poll();
                 currentTime = Math.max(currentTime, job.arrivalTime) + job.processingTime;
                 totalCompletionTime += currentTime;
-                executionOrder.append(job.id).append(" ");
+                executionOrder.append(job.id).append(", ");
             } else if (index < jobs.size()) {
                 currentTime = jobs.get(index).arrivalTime;
             }
         }
 
-        double averageCompletionTime = (double) totalCompletionTime / jobs.size();
-        System.out.println("Execution order: [" + executionOrder.toString().trim() + "]");
+        double averageCompletionTime = (double) totalCompletionTime / 100;
+        System.out.println("Execution order: [" + executionOrder.toString().replaceAll(", $", "") + "]");
         System.out.println("Average completion time: " + averageCompletionTime);
     }
 }

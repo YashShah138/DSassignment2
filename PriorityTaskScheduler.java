@@ -48,11 +48,11 @@ public class PriorityTaskScheduler {
             JobWithPriority job = jobQueue.poll();
             currentTime += job.processingTime;
             totalCompletionTime += currentTime;
-            executionOrder.append(job.id).append(" ");
+            executionOrder.append(job.id).append(", ");
         }
 
-        double averageCompletionTime = (double) totalCompletionTime / 5; // Assuming 5 jobs
-        System.out.println("Execution order: [" + executionOrder.toString().trim() + "]");
+        double averageCompletionTime = (double) totalCompletionTime / 100;
+        System.out.println("Execution order: [" + executionOrder.toString().replaceAll(", $", "") + "]");
         System.out.println("Average completion time: " + averageCompletionTime);
     }
 }

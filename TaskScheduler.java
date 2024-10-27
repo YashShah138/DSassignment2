@@ -22,7 +22,7 @@ public class TaskScheduler {
     public static void main(String[] args) {
         PriorityQueue<Job> jobQueue = new PriorityQueue<>();
         try {
-            Scanner scanner = new Scanner(new File("task1-input.txt"));
+            Scanner scanner = new Scanner(new File("./inputs/task1-input.txt"));
             while (scanner.hasNext()) {
                 int id = scanner.nextInt();
                 int processingTime = scanner.nextInt();
@@ -42,11 +42,11 @@ public class TaskScheduler {
             Job job = jobQueue.poll();
             currentTime += job.processingTime;
             totalCompletionTime += currentTime;
-            executionOrder.append(job.id).append(" ");
+            executionOrder.append(job.id).append(", ");
         }
 
-        double averageCompletionTime = (double) totalCompletionTime / 5; // Assuming 5 jobs as in the example
-        System.out.println("Execution order: [" + executionOrder.toString().trim() + "]");
+        double averageCompletionTime = (double) totalCompletionTime / 100;
+        System.out.println("Execution order: [" + executionOrder.toString().replaceAll(", $", "") + "]");
         System.out.println("Average completion time: " + averageCompletionTime);
     }
 }
