@@ -1,7 +1,7 @@
 # **CS 2341** 
 ## Assignment 2
-* **@author: Yash Shah**
-* **@author: Dani Jerez**
+* **@author: Yash Shah 49309058**
+* **@author: Dani Jerez [STUDENT ID HERE]**
 * **@duedate: October 27, 2024**
 
 ### Objective:
