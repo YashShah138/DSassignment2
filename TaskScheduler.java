@@ -46,7 +46,7 @@ public class TaskScheduler {
         }
 
         double averageCompletionTime = (double) totalCompletionTime / 5; // Assuming 5 jobs as in the example
-        System.out.println("Execution order: " + executionOrder.toString().trim());
+        System.out.println("Execution order: [" + executionOrder.toString().trim() + "]");
         System.out.println("Average completion time: " + averageCompletionTime);
     }
 }

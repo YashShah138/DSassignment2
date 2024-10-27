@@ -62,7 +62,7 @@ public class DynamicTaskScheduler {
         }
 
         double averageCompletionTime = (double) totalCompletionTime / jobs.size();
-        System.out.println("Execution order: " + executionOrder.toString().trim());
+        System.out.println("Execution order: [" + executionOrder.toString().trim() + "]");
         System.out.println("Average completion time: " + averageCompletionTime);
     }
 }

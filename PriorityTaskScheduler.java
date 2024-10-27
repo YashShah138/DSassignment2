@@ -52,7 +52,7 @@ public class PriorityTaskScheduler {
         }
 
         double averageCompletionTime = (double) totalCompletionTime / 5; // Assuming 5 jobs
-        System.out.println("Execution order: " + executionOrder.toString().trim());
+        System.out.println("Execution order: [" + executionOrder.toString().trim() + "]");
         System.out.println("Average completion time: " + averageCompletionTime);
     }
 }
