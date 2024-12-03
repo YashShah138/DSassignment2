@@ -73,4 +73,8 @@ Simulate an environment where jobs arrive dynamically (i.e., jobs arrive at diff
     - Job 4 finishes, and Job 3 starts (completion time = 21 seconds).
 
 **Output:**
-<img width="1440" alt="SC 2024-10-26 at 11 53 30 PM" src="https://github.com/user-attachments/assets/341b17e1-7627-46a4-b849-b6eb222cdc49">
+<img width="1512" alt="Screenshot 2024-12-03 at 10 36 39 AM" src="https://github.com/user-attachments/assets/265a80c5-6b88-4ca6-bbd9-db95f9622425">
+Execution order: [60, 23, 12, 38, 31, 8, 91, 81, 52, 24, 18, 73, 48, 36, 41, 3, 56, 92, 35, 40, 47, 7, 59, 49, 19, 37, 14, 16, 1, 10, 55, 45, 80, 26, 72, 5, 76, 39, 54, 22, 51, 63, 88, 29, 34, 2, 30, 93, 17, 15, 89, 83, 74, 97, 20, 65, 13, 33, 95, 69, 57, 62, 99, 28, 79, 50, 21, 98, 9, 71, 67, 84, 11, 70, 6, 78, 77, 25, 96, 4, 46, 53, 68, 64, 87, 42, 82, 90, 94, 86, 32, 85, 27, 43, 44, 66, 100, 61, 75, 58]
+
+
+Average completion time: 205.05
